@@ -44,3 +44,30 @@ streamlit run app.py
    ![image](https://github.com/user-attachments/assets/318dfc68-8aab-4d91-9d7b-ceff192cd41e)
 3) Option to download for further revision
    ![image](https://github.com/user-attachments/assets/43bab416-d00f-4c0b-baa2-c95014fd85be)
+
+
+
+### 💡 Use Cases
+📖 Self-study from lecture PDFs
+🏥 Generating quizzes from medical reports
+📑 Legal document summarization + questioning
+👨‍🏫 Teaching assistants auto-generating tests
+
+### 🛠 Built With
+🐍 Python
+
+🔥 LangChain
+
+🤖 Groq (LLaMA3-70B model)
+
+🧠 Streamlit
+
+📄 PyPDF2
+
+📤 python-docx
+
+### 👩‍💻 Author
+Kashish Seth
+📧 Email: kseth9852@gmail.com
+
+For queries, support, or collaboration — feel free to reach out!
