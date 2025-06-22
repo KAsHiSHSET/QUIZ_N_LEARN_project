@@ -48,10 +48,15 @@ streamlit run app.py
 
 
 ### 💡 Use Cases
-📖 Self-study from lecture PDFs
-🏥 Generating quizzes from medical reports
-📑 Legal document summarization + questioning
-👨‍🏫 Teaching assistants auto-generating tests
+1. 📖 Self-study from lecture PDFs 
+
+2. 🏥 Generating quizzes from medical reports 
+
+
+3. 📑 Legal document summarization + questioning
+
+4. 👨‍🏫 Teaching assistants auto-generating tests
+
 
 ### 🛠 Built With
 🐍 Python
