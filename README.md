@@ -1,3 +1,42 @@
+# 📚 Quiz-N-Learn: PDF-Based MCQ Generator
+
+**Quiz-N-Learn** is an AI-powered Streamlit web app that generates multiple-choice questions (MCQs) from any uploaded PDF document.  
+It helps students, educators, and professionals quickly create quizzes and test their knowledge with AI-evaluated answers and explanations.
+
+---
+
+## ✨ Features
+
+✅ Upload any PDF (e.g., lecture notes, reports, health or legal docs)  
+✅ Automatically generate 5/10 MCQs with 4 options each  
+✅ Includes correct answer with explanations  
+✅ Interactive quiz interface with answer validation  
+✅ Final score display  
+✅ Export all questions + answers to a downloadable DOCX file  
+✅ Powered by **LangChain + Groq LLM (LLaMA3-70B)**
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+git clone https://github.com/your-username/quiz-n-learn.git
+cd quiz-n-learn
+### 2. Install Dependencies
+pip install -r requirements.txt
+### 3. Add Groq API Key
+Create a .streamlit/secrets.toml file and add:
+
+GROQ_API_KEY = "your-groq-api-key-here"
+💡 Get your API key from: https://console.groq.com/keys
+
+### 4. Run the App
+
+streamlit run app.py
+
+
+
+### Screenshot
 1) Uploading the document
    ![image](https://github.com/user-attachments/assets/76ee41f3-10ea-4871-9aa3-4e1884a0c09f)
 2) Evaluates the quiz and shows the final score
