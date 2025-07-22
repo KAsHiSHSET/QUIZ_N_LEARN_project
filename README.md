@@ -20,24 +20,27 @@ It helps students, educators, and professionals quickly create quizzes and test 
 ## 🔧 Setup Instructions
 
 ### 1. Clone the Repository
+```bash
    git clone https://github.com/your-username/quiz-n-learn.git
    
    cd quiz-n-learn
+```
 ### 2. Install Dependencies
-
+```bash
  -pip install -r requirements.txt
+```
 ### 3. Add Groq API Key
-
+```bash
  -Create a .streamlit/secrets.toml file and add:
 
 GROQ_API_KEY = "your-groq-api-key-here"
-
+```
 💡 Get your API key from: https://console.groq.com/keys
 
 ### 4. Run the App
-
+```bash
  -streamlit run app.py
-
+```
 
 
 ### Screenshot
